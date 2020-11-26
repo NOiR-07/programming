@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {int a,b,i,j,n[100];
-printf("How many numbers are u going to enter \n");
+printf("Enter range of bubble sort \n");
 scanf("%d",&a);
 printf("Enter %d numbers:\n",a);
 for(i=0;i<a;i++)
@@ -17,8 +17,7 @@ b=n[j];
 n[j]=n[j+1];
 n[j+1]=b;
 }}}
-printf("Sorted Elements:-\n");
+printf("Sorted Elements:\n");
 for(i=0;i<a;i++)
 printf("%d\n",n[i]);
-return 0;
 }
